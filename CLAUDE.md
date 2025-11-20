@@ -39,3 +39,7 @@ uv run ruff format .
 ## Architecture Notes
 
 This is currently a minimal Python project scaffold. The actual agent implementations will be added as the project evolves based on the designs in [agent-ideas.md](agent-ideas.md).
+
+## Additional Notes
+
+Always use context7 when I need code generation, setup or configuration steps, or library/API documentation. This means you should automatically use the Context7 MCP tools to resolve library id and get library docs without me having to explicitly ask.
